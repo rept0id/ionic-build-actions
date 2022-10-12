@@ -1,2 +1,2 @@
-# ionic-prebuild-actions
+# ionic-build-actions
 ionic-prebuild-actions
