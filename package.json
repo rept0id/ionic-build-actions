@@ -1,0 +1,22 @@
+{
+  "name": "ionic-build-actions",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js --run=test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rept0id/ionic-build-actions.git"
+  },
+  "author": "rept0id",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rept0id/ionic-build-actions/issues"
+  },
+  "homepage": "https://github.com/rept0id/ionic-build-actions#readme",
+  "bin": {
+    "ionic-build-actions": "./index.js"
+  }
+}
