@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+/* global process */
 
 const fs = require('fs');
 
@@ -71,7 +71,7 @@ class init {
 
         console.log('ionic-build-actions : Init : Pre-Flight Test : Result : ' + testScriptRes );
 
-        if ( testScriptRes == 1 ) {
+        if ( testScriptRes === 1 ) {
             console.log('ionic-build-actions : Init : Pre-Flight Test : PASS');
         } else {
             console.log('ionic-build-actions : Init : Pre-Flight Test : FAIL');
@@ -144,7 +144,7 @@ class run {
         let ConfResObj = JSON.parse(ConfRes);
 
         ConfResObj.forEach(ConfResObjItem => {
-            if (ConfResObjItem.group == InputSelectedGroup) {
+            if (ConfResObjItem.group === InputSelectedGroup) {
                 result.push(ConfResObjItem.file);
             }
         });
